@@ -1,0 +1,165 @@
+
+/* UTILIES :---> These can be used allover the site */
+.container{
+    /* This is the inner container that contains both logo and nav bar items. Width dont let item to cover all the width of navBar class */
+    max-width: 1100px;;
+    /* Setting margin to auto centers the div */
+    margin: 0 auto;
+    overflow: auto ;
+    padding: 0 40px;
+}
+/* Another class to make navBar flex Rather using the same container felx, we can make and uer another flex */
+.flex{ 
+    display: flex;
+    /* Justify content is MainAxis alignment align-items is CrossAxis Alignment in flutter */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.showcase-form .form-controller{
+    padding: 10px 0;
+}
+.showcase-form input[type="text"],.showcase-form input[type="email"]{
+    border: 0;
+    border-bottom: 1px solid #b4bceb;
+ padding: 3px;
+ font-size: 18px;
+    width: 100%;
+}
+.showcase-form input:focus{
+    outline: none;
+}
+.text-center{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+}
+/* Gird with three columns */
+.gird-3{
+    grid-template-columns: repeat(3 ,1fr);
+}
+
+.card{
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color:  white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+.btn-outline{
+    border-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* background color and colored buttons */
+.bg-primary,.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+.bg-dark,.btn-dark{
+    background-color: var(--dark-color);
+    color: white;
+}
+
+
+/* Text Sized */
+.lead{
+    font-size: 20px;
+}
+.md{
+    font-size: 2rem;
+}
+.lg{
+    font-size: 3rem;
+}
+/* Footer */
+.footer{
+    color: white;
+}
+
+/* Margins */
+/* rem:Multiplier of root element tag font size(16px by default) */
+.marginY-1{
+    margin:1rem 0;
+}
+.marginY-2{
+    margin: 1.5rem 0;
+}
+.marginY-3{
+    margin: 2.5rem 0;
+}
+.marginY-4{
+    margin: 3rem 0;
+}
+.marginY-5{
+    margin: 4rem 0;
+}
+.margin{
+    margin:1rem ;
+}
+.margin{
+    margin: 1.5rem;
+}
+.margin{
+    margin: 2.5rem;
+}
+.margin{
+    margin: 3rem;
+}
+.margin{
+    margin: 4rem ;
+}
+/* Padding */
+.padding{
+    padding:1rem ;
+}
+.padding{
+    padding: 1.5rem;
+}
+.padding{
+    padding: 2.5rem;
+}
+.padding{
+    padding: 3rem;
+}
+.padding{
+    padding: 4rem ;
+}
+.paddingY-1{
+    padding:1rem 0;
+}
+.paddingY-2{
+    padding: 1.5rem 0;
+}
+.paddingY-3{
+    padding: 2.5rem 0;
+}
+.paddingY-4{
+    padding: 3rem 0;
+}
+.paddingY-5{
+    padding: 4rem 0;
+}
